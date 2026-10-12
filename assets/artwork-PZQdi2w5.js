@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-DkW27tQK.js";function t(e){let t=e?.filter(e=>/^#[0-9a-f]{6}$/i.test(e))??[],n=e=>{let t=[1,3,5].map(t=>parseInt(e.slice(t,t+2),16));return Math.max(...t)-Math.min(...t)},r=t.filter(e=>n(e)>=48),i=r[0]??t[0]??`transparent`;return{"--artwork":i,"--artwork-secondary":r.find(e=>e!==i)??i}}function n(){return(n=e((()=>{})))()}export{n,t};
